@@ -1,283 +1,78 @@
 {
   "version": 6,
-  "exportedAt": "2026-11-07T03:51:41.219Z",
+  "profileId": "default_profile",
+  "exportedAt": "2026-11-07T12:00:00.000Z",
   "categories": [
     {
-      "id": "group_equipment",
-      "name": "{\"en\":\"Equipment\",\"es\":\"Equipamiento\",\"fr\":\"Équipement\",\"de\":\"Ausrüstung\",\"et\":\"Varustus\"}",
+      "id": "group_strength",
+      "name": {
+        "en": "Strength & Power",
+        "et": "Jõud & Võimsus"
+      },
       "orderIndex": 0
-    },
-    {
-      "id": "group_muscles",
-      "name": "{\"en\":\"Muscles\",\"es\":\"Músculos\",\"fr\":\"Muscles\",\"de\":\"Muskeln\",\"et\":\"Lihased\"}",
-      "orderIndex": 1
-    },
-    {
-      "id": "group_movement_pattern",
-      "name": "{\"en\":\"Movement Pattern\",\"es\":\"Patrón de movimiento\",\"fr\":\"Schéma de mouvement\",\"de\":\"Bewegungsmuster\",\"et\":\"Liikumismuster\"}",
-      "orderIndex": 2
-    },
-    {
-      "id": "group_mechanic",
-      "name": "{\"en\":\"Mechanic\",\"es\":\"Mecánica\",\"fr\":\"Mécanique\",\"de\":\"Mechanik\",\"et\":\"Mehaanika\"}",
-      "orderIndex": 3
-    },
-    {
-      "id": "group_laterality",
-      "name": "{\"en\":\"Laterality\",\"es\":\"Lateralidad\",\"fr\":\"Latéralité\",\"de\":\"Lateralität\",\"et\":\"Lateraalsus\"}",
-      "orderIndex": 4
-    },
-    {
-      "id": "group_force_type",
-      "name": "{\"en\":\"Force Type\",\"es\":\"Tipo de fuerza\",\"fr\":\"Type de force\",\"de\":\"Kraftart\",\"et\":\"Jõutüüp\"}",
-      "orderIndex": 5
-    },
-    {
-      "id": "group_discipline",
-      "name": "{\"en\":\"Discipline\",\"es\":\"Disciplina\",\"fr\":\"Discipline\",\"de\":\"Disziplin\",\"et\":\"Distsipliin\"}",
-      "orderIndex": 6
     }
   ],
   "tags": [
     {
-      "id": "tag_barbell",
-      "name": "{\"en\":\"Barbell\",\"es\":\"Barra\",\"fr\":\"Barre\",\"de\":\"Langhantel\",\"et\":\"Kang\"}",
-      "category_group": "group_equipment"
-    },
-    {
-      "id": "tag_dumbbell",
-      "name": "{\"en\":\"Dumbbell\",\"es\":\"Mancuerna\",\"fr\":\"Haltère\",\"de\":\"Kurzhantel\",\"et\":\"Hantel\"}",
-      "category_group": "group_equipment"
-    },
-    {
-      "id": "tag_cable",
-      "name": "{\"en\":\"Cable\",\"es\":\"Polea\",\"fr\":\"Poulie\",\"de\":\"Kabelzug\",\"et\":\"Plokisüsteem\"}",
-      "category_group": "group_equipment"
-    },
-    {
-      "id": "tag_machine",
-      "name": "{\"en\":\"Machine\",\"es\":\"Máquina\",\"fr\":\"Machine\",\"de\":\"Maschine\",\"et\":\"Masin\"}",
-      "category_group": "group_equipment"
-    },
-    {
-      "id": "tag_bodyweight",
-      "name": "{\"en\":\"Bodyweight\",\"es\":\"Peso corporal\",\"fr\":\"Poids de corps\",\"de\":\"Körpergewicht\",\"et\":\"Keharaskus\"}",
-      "category_group": "group_equipment"
-    },
-    {
       "id": "tag_chest",
-      "name": "{\"en\":\"Chest\",\"es\":\"Pecho\",\"fr\":\"Pectoraux\",\"de\":\"Brust\",\"et\":\"Rind\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_back",
-      "name": "{\"en\":\"Back\",\"es\":\"Espalda\",\"fr\":\"Dos\",\"de\":\"Rücken\",\"et\":\"Selg\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_quads",
-      "name": "{\"en\":\"Quads\",\"es\":\"Cuádriceps\",\"fr\":\"Quadriceps\",\"de\":\"Quadrizeps\",\"et\":\"Nelipea\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_hamstrings",
-      "name": "{\"en\":\"Hamstrings\",\"es\":\"Isquiotibiales\",\"fr\":\"Ischio-jambiers\",\"de\":\"Beinbeuger\",\"et\":\"Tagareis\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_shoulders",
-      "name": "{\"en\":\"Shoulders\",\"es\":\"Hombros\",\"fr\":\"Épaules\",\"de\":\"Schultern\",\"et\":\"Õlad\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_biceps",
-      "name": "{\"en\":\"Biceps\",\"es\":\"Bíceps\",\"fr\":\"Biceps\",\"de\":\"Bizeps\",\"et\":\"Biitseps\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_triceps",
-      "name": "{\"en\":\"Triceps\",\"es\":\"Tríceps\",\"fr\":\"Triceps\",\"de\":\"Trizeps\",\"et\":\"Triitseps\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_core",
-      "name": "{\"en\":\"Core\",\"es\":\"Core\",\"fr\":\"Gainage\",\"de\":\"Rumpf\",\"et\":\"Keretreening\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_glutes",
-      "name": "{\"en\":\"Glutes\",\"es\":\"Glúteos\",\"fr\":\"Fessiers\",\"de\":\"Gesäß\",\"et\":\"Tuharad\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_calves",
-      "name": "{\"en\":\"Calves\",\"es\":\"Pantorrillas\",\"fr\":\"Mollets\",\"de\":\"Waden\",\"et\":\"Sääred\"}",
-      "category_group": "group_muscles"
-    },
-    {
-      "id": "tag_horizontal_push",
-      "name": "{\"en\":\"Horizontal Push\",\"es\":\"Empuje horizontal\",\"fr\":\"Poussée horizontale\",\"de\":\"Horizontaler Druck\",\"et\":\"Horisontaalne surumine\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_horizontal_pull",
-      "name": "{\"en\":\"Horizontal Pull\",\"es\":\"Tracción horizontal\",\"fr\":\"Tirage horizontal\",\"de\":\"Horizontaler Zug\",\"et\":\"Horisontaalne tõmme\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_vertical_push",
-      "name": "{\"en\":\"Vertical Push\",\"es\":\"Empuje vertical\",\"fr\":\"Poussée verticale\",\"de\":\"Vertikaler Druck\",\"et\":\"Vertikaalne surumine\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_vertical_pull",
-      "name": "{\"en\":\"Vertical Pull\",\"es\":\"Tracción vertical\",\"fr\":\"Tirage vertical\",\"de\":\"Vertikaler Zug\",\"et\":\"Vertikaalne tõmme\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_squat",
-      "name": "{\"en\":\"Squat\",\"es\":\"Sentadilla\",\"fr\":\"Squat\",\"de\":\"Kniebeuge\",\"et\":\"Kükk\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_hinge",
-      "name": "{\"en\":\"Hinge\",\"es\":\"Bisagra de cadera\",\"fr\":\"Hinge\",\"de\":\"Hüftbeuge\",\"et\":\"Puusa painutus\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_lunge",
-      "name": "{\"en\":\"Lunge\",\"es\":\"Zancada\",\"fr\":\"Fente\",\"de\":\"Ausfallschritt\",\"et\":\"Väljaaste\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_carry",
-      "name": "{\"en\":\"Carry\",\"es\":\"Paseo de granjero\",\"fr\":\"Porté\",\"de\":\"Tragen\",\"et\":\"Kandmine\"}",
-      "category_group": "group_movement_pattern"
-    },
-    {
-      "id": "tag_compound",
-      "name": "{\"en\":\"Compound\",\"es\":\"Polifarticular\",\"fr\":\"Polyarticulaire\",\"de\":\"Mehrgelenkig\",\"et\":\"Kompleks\"}",
-      "category_group": "group_mechanic"
-    },
-    {
-      "id": "tag_isolation",
-      "name": "{\"en\":\"Isolation\",\"es\":\"Aislamiento\",\"fr\":\"Isolation\",\"de\":\"Isolation\",\"et\":\"Isolatsioon\"}",
-      "category_group": "group_mechanic"
-    },
-    {
-      "id": "tag_bilateral",
-      "name": "{\"en\":\"Bilateral\",\"es\":\"Bilateral\",\"fr\":\"Bilatéral\",\"de\":\"Bilateral\",\"et\":\"Bilateraalne\"}",
-      "category_group": "group_laterality"
-    },
-    {
-      "id": "tag_unilateral",
-      "name": "{\"en\":\"Unilateral\",\"es\":\"Unilateral\",\"fr\":\"Unilatéral\",\"de\":\"Unilateral\",\"et\":\"Unilateraalne\"}",
-      "category_group": "group_laterality"
-    },
-    {
-      "id": "tag_push",
-      "name": "{\"en\":\"Push\",\"es\":\"Empuje\",\"fr\":\"Poussée\",\"de\":\"Drücken\",\"et\":\"Surumine\"}",
-      "category_group": "group_force_type"
-    },
-    {
-      "id": "tag_pull",
-      "name": "{\"en\":\"Pull\",\"es\":\"Tracción\",\"fr\":\"Tirage\",\"de\":\"Ziehen\",\"et\":\"Tõmme\"}",
-      "category_group": "group_force_type"
-    },
-    {
-      "id": "tag_dynamic_carry",
-      "name": "{\"en\":\"Dynamic Carry\",\"es\":\"Transporte dinámico\",\"fr\":\"Porté dynamique\",\"de\":\"Dynamisches Tragen\",\"et\":\"Dünaamiline kandmine\"}",
-      "category_group": "group_force_type"
-    },
-    {
-      "id": "tag_hold",
-      "name": "{\"en\":\"Hold\",\"es\":\"Isometría\",\"fr\":\"Maintien\",\"de\":\"Halten\",\"et\":\"Hoidmine\"}",
-      "category_group": "group_force_type"
-    },
-    {
-      "id": "tag_powerlifting",
-      "name": "{\"en\":\"Powerlifting\",\"es\":\"Powerlifting\",\"fr\":\"Powerlifting\",\"de\":\"Powerlifting\",\"et\":\"Jõutõstmine\"}",
-      "category_group": "group_discipline"
-    },
-    {
-      "id": "tag_bodybuilding",
-      "name": "{\"en\":\"Bodybuilding\",\"es\":\"Culturismo\",\"fr\":\"Culturisme\",\"de\":\"Bodybuilding\",\"et\":\"Kulturism\"}",
-      "category_group": "group_discipline"
-    },
-    {
-      "id": "tag_calisthenics",
-      "name": "{\"en\":\"Calisthenics\",\"es\":\"Calistenia\",\"fr\":\"Calisthénie\",\"de\":\"Calisthenics\",\"et\":\"Kalisteenika\"}",
-      "category_group": "group_discipline"
-    },
-    {
-      "id": "tag_olympic_weightlifting",
-      "name": "{\"en\":\"Olympic Weightlifting\",\"es\":\"Halterofilia\",\"fr\":\"Haltérophilie\",\"de\":\"Gewichtheben\",\"et\":\"Olümpiatõstmine\"}",
-      "category_group": "group_discipline"
-    },
-    {
-      "id": "tag_athletics",
-      "name": "{\"en\":\"Athletics\",\"es\":\"Atletismo\",\"fr\":\"Athlétisme\",\"de\":\"Leichtathletik\",\"et\":\"Kergejõustik\"}",
-      "category_group": "group_discipline"
-    },
-    {
-      "id": "tag_mobility",
-      "name": "{\"en\":\"Mobility\",\"es\":\"Movilidad\",\"fr\":\"Mobilité\",\"de\":\"Mobilität\",\"et\":\"Mobiilsus\"}",
-      "category_group": "group_discipline"
+      "name": {
+        "en": "Chest",
+        "et": "Rind"
+      },
+      "category_group": "group_strength"
     }
   ],
   "exercises": [
     {
-      "id": "ex_barbell_bench_press",
-      "name": "Barbell Bench Press",
-      "description": "Lie flat on the bench, unrack the barbell, lower it under control to mid-chest, and press explosively up.",
-      "variants": "[\"Close Grip Bench Press\", \"Pause Bench Press\", \"Spoto Press\"]",
-      "tags": "[\"tag_barbell\", \"tag_chest\", \"tag_triceps\", \"tag_shoulders\", \"tag_horizontal_push\", \"tag_compound\", \"tag_bilateral\", \"tag_push\", \"tag_powerlifting\", \"tag_bodybuilding\"]",
-      "photos": "[]",
-      "videos": "[\"https://youtube.com/watch?v=rT7DgCr-3pg\"]"
-    },
-    {
-      "id": "ex_barbell_back_squat",
-      "name": "Barbell Back Squat",
-      "description": "Place bar across upper back, bend knees and hips simultaneously to lower below parallel, then drive upwards.",
-      "variants": "[\"Pause Squat\", \"Tempo Squat\", \"Pin Squat\"]",
-      "tags": "[\"tag_barbell\", \"tag_quads\", \"tag_glutes\", \"tag_core\", \"tag_squat\", \"tag_compound\", \"tag_bilateral\", \"tag_push\", \"tag_powerlifting\", \"tag_bodybuilding\"]",
-      "photos": "[]",
-      "videos": "[\"https://youtube.com/watch?v=ultWZbUMPL8\"]"
-    },
-    {
-      "id": "ex_conventional_deadlift",
-      "name": "Conventional Deadlift",
-      "description": "Stand hip-width apart, hinge down to grip bar, keep flat back and pull straight up until hip lockout.",
-      "variants": "[\"Pause Deadlift\", \"Deficit Deadlift\", \"Block Pull\"]",
-      "tags": "[\"tag_barbell\", \"tag_back\", \"tag_hamstrings\", \"tag_glutes\", \"tag_hinge\", \"tag_compound\", \"tag_bilateral\", \"tag_pull\", \"tag_powerlifting\"]",
-      "photos": "[]",
-      "videos": "[\"https://youtube.com/watch?v=op9kVnSso6Q\"]"
-    },
-    {
-      "id": "ex_pull_up",
-      "name": "Pull-Up",
-      "description": "Grasp overhead bar with palms facing away, pull chest up to bar chin over bar, then lower with control.",
-      "variants": "[\"Weighted Pull-Up\", \"Pause Pull-Up\", \"L-Sit Pull-Up\"]",
-      "tags": "[\"tag_bodyweight\", \"tag_back\", \"tag_biceps\", \"tag_vertical_pull\", \"tag_compound\", \"tag_bilateral\", \"tag_pull\", \"tag_calisthenics\"]",
-      "photos": "[]",
-      "videos": "[]"
-    },
-    {
-      "id": "ex_overhead_press",
-      "name": "Barbell Overhead Press",
-      "description": "Stand tall, press barbell overhead from shoulders to full arm lockout without dipping knees.",
-      "variants": "[\"Push Press\", \"Z Press\", \"Pin Press\"]",
-      "tags": "[\"tag_barbell\", \"tag_shoulders\", \"tag_triceps\", \"tag_vertical_push\", \"tag_compound\", \"tag_bilateral\", \"tag_push\", \"tag_powerlifting\"]",
-      "photos": "[]",
-      "videos": "[]"
+      "id": "ex_sample_bench",
+      "name": {
+        "en": "Barbell Bench Press",
+        "et": "Lamades surumine kangiga"
+      },
+      "description": {
+        "en": "Lie flat on the bench, unrack the bar...",
+        "et": "Lama pingil, võta kang hoidjalt..."
+      },
+      "tags": ["tag_chest"],
+      "variants": ["wide_grip", "close_grip"],
+      "variantNameMaps": {
+        "wide_grip": {
+          "en": "Wide Grip",
+          "et": "Lai haare"
+        }
+      },
+      "photos": [],
+      "videos": [],
+      "useWeight": true,
+      "useReps": true,
+      "useTime": false,
+      "useDistance": false
     }
   ],
   "routines": [
     {
-      "id": "routine_1794023444345",
-      "name": "123",
-      "notes": "",
-      "splits": "[{\"name\":\"Day 1 - Split\",\"exerciseIds\":[\"ex_barbell_bench_press\",\"ex_overhead_press\",\"ex_barbell_back_squat\"]},{\"name\":\"Day 2 - Split\",\"exerciseIds\":[]}]"
+      "id": "routine_sample_upper",
+      "name": {
+        "en": "Sample Upper Body Routine",
+        "et": "Näidis ülakeha kava"
+      },
+      "description": "Strength & Hypertrophy",
+      "splits": [
+        {
+          "id": "split_chest_day",
+          "name": {
+            "en": "Chest & Legs Split",
+            "et": "Rinna ja jalgade split"
+          },
+          "exerciseIds": ["ex_sample_bench"],
+          "exerciseComments": ["Focus on form"],
+          "exerciseEquipments": ["wide_grip"],
+          "exerciseTargetSets": [3]
+        }
+      ],
+      "createdAt": 1700000000000,
+      "orderIndex": 0
     }
-  ]
+  ],
+  "workouts": []
 }
